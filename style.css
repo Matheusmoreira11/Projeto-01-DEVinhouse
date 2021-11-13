@@ -1,0 +1,76 @@
+body {
+    box-sizing:content-box;
+  }
+  
+  .container {
+    background: rgb(221, 212, 212);
+    max-width: 450px;
+    min-height: 95vh;
+    margin: auto;
+    border-radius: 12px;
+    border: solid 4px;
+  }
+  
+  
+  header {
+    background: rgb(168, 241, 172);
+    padding:1.5rem;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  section {
+    font-size: 1.25rem;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  input[type=text] {
+    height: 2rem;
+    width:100%;
+    margin-bottom: 0.5rem;
+  }
+  input[type=checkbox] {
+    margin-right: 1rem;
+  }
+  
+  button {
+    height: 2rem;
+    border-radius: 2px;
+    background: rgb(240, 230, 230);
+    margin-right: 0.5rem;
+
+  }
+  
+  .btnAdicionar {
+    width:100%;
+    background-color: rgb(204, 248, 198);
+  }
+  
+  
+  .list-container {
+    background: rgb(214, 238, 213);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-item {
+    background: rgb(252, 253, 252);
+    margin:0.5rem 0;
+    padding: 5px ;
+    display: flex;  
+    align-items: flex-end;
+  }
+  
+  .delete-button {
+    height: 1.5rem;
+    margin-left:auto;
+    background:rgb(132, 241, 132);
+    
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: darkgray;
+  }
